@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" fill="none">
+  <rect width="1200" height="1200" fill="#8B5CF6" rx="120"/>
+
+  <!-- Musical notes -->
+  <g fill="#FFFFFF">
+    <!-- First note -->
+    <ellipse cx="450" cy="750" rx="80" ry="60" transform="rotate(-20 450 750)"/>
+    <rect x="520" y="500" width="35" height="250" rx="17.5"/>
+
+    <!-- Second note -->
+    <ellipse cx="680" cy="780" rx="80" ry="60" transform="rotate(-20 680 780)"/>
+    <rect x="750" y="530" width="35" height="250" rx="17.5"/>
+
+    <!-- Connecting beam -->
+    <path d="M 555 510 L 785 540 L 785 580 L 555 550 Z"/>
+
+    <!-- Staff lines (background) -->
+    <g opacity="0.3">
+      <line x1="300" y1="550" x2="900" y2="550" stroke="#FFFFFF" stroke-width="8"/>
+      <line x1="300" y1="620" x2="900" y2="620" stroke="#FFFFFF" stroke-width="8"/>
+      <line x1="300" y1="690" x2="900" y2="690" stroke="#FFFFFF" stroke-width="8"/>
+      <line x1="300" y1="760" x2="900" y2="760" stroke="#FFFFFF" stroke-width="8"/>
+      <line x1="300" y1="830" x2="900" y2="830" stroke="#FFFFFF" stroke-width="8"/>
+    </g>
+
+    <!-- Decorative wave (representing timing/rhythm) -->
+    <path d="M 200 350 Q 350 280 500 350 T 800 350 T 1000 350"
+          stroke="#FFFFFF"
+          stroke-width="12"
+          fill="none"
+          opacity="0.4"
+          stroke-linecap="round"/>
+  </g>
+</svg>
